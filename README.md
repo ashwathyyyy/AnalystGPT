@@ -1,31 +1,30 @@
 # 🤖 AnalystGPT – AI-Powered Business Intelligence Platform
 
-AnalystGPT is an AI-powered Business Intelligence application built with **Streamlit**, **Python**, **Plotly**, and **Google Gemini AI**.
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
+![Google Gemini](https://img.shields.io/badge/Google-Gemini_AI-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-The application allows users to upload business datasets, automatically visualize the data, generate executive-level business insights using AI, and interact with the dataset through natural language.
-
----
-
-## 🚀 Features
-
-- Upload CSV and Excel datasets
-- Automatic dataset profiling
-- KPI dashboard
-- Missing value detection
-- Duplicate detection
-- Interactive visualizations
-- Histograms
-- Box Plots
-- Category Analysis
-- AI Executive Business Report
-- AI Business Recommendations
-- AI Data Quality Assessment
-- Chat with Dataset using Google Gemini
-- Download AI-generated Business Report
+AnalystGPT is an AI-powered Business Intelligence platform built using **Python, Streamlit, Plotly, Pandas, and Google Gemini AI**. It enables users to upload CSV or Excel datasets, automatically generate interactive dashboards, visualize trends, obtain executive-level business insights using AI, and interact with their data through natural language.
 
 ---
 
-## 🛠 Tech Stack
+# 🚀 Features
+
+- 📁 Upload CSV and Excel datasets
+- 📊 Automatic dataset profiling
+- 📈 KPI dashboard
+- 📋 Dataset preview
+- 📉 Histogram, Box Plot, and Category Analysis
+- 🤖 AI-generated Executive Business Report
+- 💡 AI Business Recommendations
+- 🧹 Data Quality Assessment
+- 💬 Chat with Dataset using Google Gemini AI
+- 📥 Download AI-generated Business Report
+
+---
+
+# 🛠️ Tech Stack
 
 - Python
 - Streamlit
@@ -37,39 +36,106 @@ The application allows users to upload business datasets, automatically visualiz
 
 ---
 
-## 📸 Application Preview
+# 📂 Project Structure
 
-(Add screenshots here)
+```text
+AnalystGPT/
+│── app.py
+│── README.md
+│── requirements.txt
+│── .gitignore
+│── .env.example
+│
+├── screenshots/
+├── sample_data/
+└── exports/
+```
 
 ---
 
-## 📊 Workflow
+# 📸 Application Preview
 
+## Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+---
+
+## Visualizations
+
+![Visualizations](screenshots/visualizations.png)
+
+---
+
+## AI Business Analysis
+
+![AI Analysis](screenshots/ai_analysis.png)
+
+---
+
+## Chat with Dataset
+
+![Chat](screenshots/chat.png)
+
+---
+
+# ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/ashwathyyyy/AnalystGPT.git
+```
+
+Move into the project folder:
+
+```bash
+cd AnalystGPT
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the application:
+
+```bash
+streamlit run app.py
+```
+
+---
+
+# 🔑 Environment Variables
+
+Create a `.env` file in the project root.
+
+```env
+GEMINI_API_KEY=YOUR_API_KEY
+```
+
+---
+
+# 📊 Workflow
+
+```
 Upload Dataset
-
-↓
-
+      ↓
 Automatic Data Profiling
-
-↓
-
+      ↓
 Interactive Visualizations
-
-↓
-
+      ↓
 AI Business Analysis
-
-↓
-
-AI Chat Assistant
-
-↓
-
+      ↓
+Conversational AI Chat
+      ↓
 Download Business Report
+```
 
 ---
 
-## 📈 Business Use Cases
+# 📈 Business Use Cases
 
 - Business Intelligence
 - Executive Reporting
@@ -80,21 +146,30 @@ Download Business Report
 
 ---
 
-## ⚡ Future Improvements
+# 🔮 Future Improvements
 
 - PDF Report Export
 - Multi-file Analysis
 - Predictive Analytics
-- Role-based Dashboards
 - SQL Database Integration
 - Power BI Integration
+- User Authentication
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
-Ashwathy Santhosh
+**Ashwathy Santhosh**
 
 Computer Science Engineering Student
 
-Business Analytics | Data Analytics | AI Applications
+Interested in:
+
+- Business Analytics
+- Data Analytics
+- Artificial Intelligence
+- Business Intelligence
+
+---
+
+⭐ If you found this project useful, consider giving it a star.
