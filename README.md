@@ -1,38 +1,65 @@
 # 🤖 AnalystGPT – AI-Powered Business Intelligence Platform
 
-![Python](https://img.shields.io/badge/Python-3.11-blue)
-![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
-![Google Gemini](https://img.shields.io/badge/Google-Gemini_AI-orange)
-![License](https://img.shields.io/badge/License-MIT-green)
+![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red?style=for-the-badge&logo=streamlit)
+![Google Gemini](https://img.shields.io/badge/Google-Gemini%20AI-orange?style=for-the-badge&logo=google)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-AnalystGPT is an AI-powered Business Intelligence platform built using **Python, Streamlit, Plotly, Pandas, and Google Gemini AI**. It enables users to upload CSV or Excel datasets, automatically generate interactive dashboards, visualize trends, obtain executive-level business insights using AI, and interact with their data through natural language.
+An AI-powered Business Intelligence platform that transforms raw CSV and Excel datasets into interactive dashboards, executive-level business insights, and conversational analytics using **Google Gemini AI**.
 
 ---
 
 # 🚀 Features
 
-- 📁 Upload CSV and Excel datasets
-- 📊 Automatic dataset profiling
-- 📈 KPI dashboard
-- 📋 Dataset preview
-- 📉 Histogram, Box Plot, and Category Analysis
-- 🤖 AI-generated Executive Business Report
-- 💡 AI Business Recommendations
-- 🧹 Data Quality Assessment
-- 💬 Chat with Dataset using Google Gemini AI
-- 📥 Download AI-generated Business Report
+✅ Upload CSV & Excel datasets
+
+✅ Automatic Dataset Profiling
+
+- Number of Rows & Columns
+- Missing Value Detection
+- Duplicate Detection
+- Column Information
+- Dataset Preview
+
+✅ Interactive Dashboard
+
+- KPI Cards
+- Statistical Summary
+- Business Metrics
+
+✅ Automated Visualizations
+
+- Histograms
+- Box Plots
+- Category-wise Analysis
+- Interactive Plotly Charts
+
+✅ AI Business Intelligence
+
+- Executive Summary
+- Key Business Insights
+- Strategic Recommendations
+- Data Quality Assessment
+
+✅ AI Chat Assistant
+
+- Ask questions about your uploaded dataset
+- Conversational business analytics
+- Context-aware responses using Google Gemini AI
 
 ---
 
-# 🛠️ Tech Stack
+# 🛠 Tech Stack
 
-- Python
-- Streamlit
-- Pandas
-- Plotly
-- Google Gemini API
-- OpenPyXL
-- python-dotenv
+| Technology | Purpose |
+|------------|---------|
+| Python | Backend |
+| Streamlit | Web Application |
+| Pandas | Data Processing |
+| Plotly | Interactive Visualizations |
+| Google Gemini AI | AI Business Analysis |
+| OpenPyXL | Excel Support |
+| python-dotenv | Environment Variables |
 
 ---
 
@@ -40,14 +67,29 @@ AnalystGPT is an AI-powered Business Intelligence platform built using **Python,
 
 ```text
 AnalystGPT/
-│── app.py
-│── README.md
-│── requirements.txt
-│── .gitignore
-│── .env.example
 │
-├── screenshots/
+├── app.py
+├── README.md
+├── requirements.txt
+├── .gitignore
+├── .env.example
+│
+├── Screenshots/
+│
+│   ├── dashboard_1.png
+│   ├── dashboard_2.png
+│   ├── visualizations_1.png
+│   ├── visualizations_2.png
+│   ├── ai_analysis_1.png
+│   ├── ai_analysis_2.png
+│   ├── ai_analysis_3.png
+│   ├── ai_analysis_4.png
+│   ├── ai_chat_1.png
+│   ├── ai_chat_2.png
+│   └── ai_chat_3.png
+│
 ├── sample_data/
+│
 └── exports/
 ```
 
@@ -55,51 +97,126 @@ AnalystGPT/
 
 # 📸 Application Preview
 
-## Dashboard
+## 🏠 Dashboard
 
-![Dashboard](screenshots/dashboard.png)
+### Application Home
 
----
+![Dashboard](Screenshots/dashboard_1.png)
 
-## Visualizations
+### KPI Cards & Dataset Overview
 
-![Visualizations](screenshots/visualizations.png)
-
----
-
-## AI Business Analysis
-
-![AI Analysis](screenshots/ai_analysis.png)
+![Dashboard KPIs](Screenshots/dashboard_2.png)
 
 ---
 
-## Chat with Dataset
+## 📊 Interactive Visualizations
 
-![Chat](screenshots/chat.png)
+### Histogram Analysis
+
+![Visualization 1](Screenshots/visualizations_1.png)
+
+### Category Analysis
+
+![Visualization 2](Screenshots/visualizations_2.png)
 
 ---
 
-# ⚙️ Installation
+## 🤖 AI Business Analysis
 
-Clone the repository:
+### Executive Summary
+
+![Analysis 1](Screenshots/ai_analysis_1.png)
+
+### Key Insights
+
+![Analysis 2](Screenshots/ai_analysis_2.png)
+
+### Business Recommendations
+
+![Analysis 3](Screenshots/ai_analysis_3.png)
+
+### Data Quality Assessment
+
+![Analysis 4](Screenshots/ai_analysis_4.png)
+
+---
+
+## 💬 Chat with Dataset
+
+### Ask Business Questions
+
+![Chat 1](Screenshots/ai_chat_1.png)
+
+### AI Responses
+
+![Chat 2](Screenshots/ai_chat_2.png)
+
+### Conversational Analytics
+
+![Chat 3](Screenshots/ai_chat_3.png)
+
+---
+
+# 📊 Business Workflow
+
+```text
+Upload Dataset
+       │
+       ▼
+Automatic Data Profiling
+       │
+       ▼
+Interactive Dashboard
+       │
+       ▼
+Automated Visualizations
+       │
+       ▼
+AI Executive Business Analysis
+       │
+       ▼
+Natural Language Chat
+       │
+       ▼
+Business Decision Support
+```
+
+---
+
+# 💼 Business Use Cases
+
+- Business Intelligence
+- Executive Reporting
+- Sales Analytics
+- Customer Analytics
+- Data Quality Assessment
+- Exploratory Data Analysis (EDA)
+- Decision Support Systems
+- Business Performance Monitoring
+
+---
+
+# ⚙ Installation
+
+Clone the repository
 
 ```bash
 git clone https://github.com/ashwathyyyy/AnalystGPT.git
 ```
 
-Move into the project folder:
+Move into the project
 
 ```bash
 cd AnalystGPT
 ```
 
-Install dependencies:
+Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run the application:
+Run the application
 
 ```bash
 streamlit run app.py
@@ -109,7 +226,7 @@ streamlit run app.py
 
 # 🔑 Environment Variables
 
-Create a `.env` file in the project root.
+Create a `.env` file inside the project directory.
 
 ```env
 GEMINI_API_KEY=YOUR_API_KEY
@@ -117,43 +234,16 @@ GEMINI_API_KEY=YOUR_API_KEY
 
 ---
 
-# 📊 Workflow
-
-```
-Upload Dataset
-      ↓
-Automatic Data Profiling
-      ↓
-Interactive Visualizations
-      ↓
-AI Business Analysis
-      ↓
-Conversational AI Chat
-      ↓
-Download Business Report
-```
-
----
-
-# 📈 Business Use Cases
-
-- Business Intelligence
-- Executive Reporting
-- Sales Analytics
-- Data Quality Assessment
-- Decision Support
-- Exploratory Data Analysis
-
----
-
-# 🔮 Future Improvements
+# 🔮 Future Enhancements
 
 - PDF Report Export
-- Multi-file Analysis
-- Predictive Analytics
-- SQL Database Integration
+- Multi-file Dataset Analysis
+- SQL Database Connectivity
 - Power BI Integration
+- Predictive Analytics
+- Advanced Business KPI Tracking
 - User Authentication
+- Cloud Deployment
 
 ---
 
@@ -167,9 +257,13 @@ Interested in:
 
 - Business Analytics
 - Data Analytics
-- Artificial Intelligence
 - Business Intelligence
+- Artificial Intelligence
 
 ---
 
-⭐ If you found this project useful, consider giving it a star.
+## ⭐ Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
+
+It helps others discover the project and supports future development.
