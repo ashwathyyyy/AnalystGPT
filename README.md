@@ -74,7 +74,7 @@ AnalystGPT/
 ├── .gitignore
 ├── .env.example
 │
-├── Screenshots/
+├── screenshots/
 │
 │   ├── dashboard_1.png
 │   ├── dashboard_2.png
@@ -101,11 +101,11 @@ AnalystGPT/
 
 ### Application Home
 
-![Dashboard](Screenshots/dashboard_1.png)
+![Dashboard](screenshots/dashboard_1.png)
 
 ### KPI Cards & Dataset Overview
 
-![Dashboard KPIs](Screenshots/dashboard_2.png)
+![Dashboard KPIs](screenshots/dashboard_2.png)
 
 ---
 
@@ -113,11 +113,11 @@ AnalystGPT/
 
 ### Histogram Analysis
 
-![Visualization 1](Screenshots/visualizations_1.png)
+![Visualization 1](screenshots/visualizations_1.png)
 
 ### Category Analysis
 
-![Visualization 2](Screenshots/visualizations_2.png)
+![Visualization 2](screenshots/visualizations_2.png)
 
 ---
 
@@ -125,19 +125,19 @@ AnalystGPT/
 
 ### Executive Summary
 
-![Analysis 1](Screenshots/ai_analysis_1.png)
+![Analysis 1](screenshots/ai_analysis_1.png)
 
 ### Key Insights
 
-![Analysis 2](Screenshots/ai_analysis_2.png)
+![Analysis 2](screenshots/ai_analysis_2.png)
 
 ### Business Recommendations
 
-![Analysis 3](Screenshots/ai_analysis_3.png)
+![Analysis 3](screenshots/ai_analysis_3.png)
 
 ### Data Quality Assessment
 
-![Analysis 4](Screenshots/ai_analysis_4.png)
+![Analysis 4](screenshots/ai_analysis_4.png)
 
 ---
 
@@ -145,15 +145,15 @@ AnalystGPT/
 
 ### Ask Business Questions
 
-![Chat 1](Screenshots/ai_chat_1.png)
+![Chat 1](screenshots/ai_chat_1.png)
 
 ### AI Responses
 
-![Chat 2](Screenshots/ai_chat_2.png)
+![Chat 2](screenshots/ai_chat_2.png)
 
 ### Conversational Analytics
 
-![Chat 3](Screenshots/ai_chat_3.png)
+![Chat 3](screenshots/ai_chat_3.png)
 
 ---
 
